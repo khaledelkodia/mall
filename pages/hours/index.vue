@@ -30,7 +30,7 @@ main {
 
 .title::after {
   content: "";
-  width: 30%;
+  width: 15%;
   height: 1px;
   background-color: var(--primary-orange);
   margin: 3rem 2rem;
@@ -38,7 +38,7 @@ main {
 
 .title::before {
   content: "";
-  width: 30%;
+  width: 15%;
   height: 1px;
   background-color: var(--primary-orange);
   margin: 3rem 2rem;
@@ -51,9 +51,9 @@ main {
 }
 
 @media (max-width: 480px) {
-    
   .title {
-      font-size: 16px;
+      font-size: 20px;
     }
   }
+
 </style>
