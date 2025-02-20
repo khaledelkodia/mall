@@ -49,4 +49,11 @@ main {
   width: 100%;
   margin: 3rem auto 1rem auto;
 }
+
+@media (max-width: 480px) {
+    
+  .title {
+      font-size: 18px;
+    }
+  }
 </style>

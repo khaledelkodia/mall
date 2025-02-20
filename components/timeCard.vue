@@ -148,6 +148,9 @@
       padding: 10px;
       font-size: 14px;
     }
+    .countdown {
+      font-size: 14px;
+    }
   }
   </style>
   
