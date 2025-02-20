@@ -47,7 +47,7 @@ const offers = [
   {
     id: 3,
     title: ' كاردا',
-    image: '/images/stores/carda.png',
+    image: '/images/stores/carda1.png',
     isOffer: false
   },
   {
