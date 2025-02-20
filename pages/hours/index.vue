@@ -53,7 +53,7 @@ main {
 @media (max-width: 480px) {
     
   .title {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 </style>
