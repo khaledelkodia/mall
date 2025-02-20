@@ -1,36 +1,31 @@
 <template>
   <div class="offers-grid">
     <div v-for="offer in offers" :key="offer.id" class="offer-card">
-    <div v-if="offer.isOffer" class="isOffer">عرض</div>
-    <div class="offer-image-container">
-        <div class="offer-image-background"></div>
-        <img class="offer-image" :src="offer.image" :alt="offer.title" />
-      <h3 class="offer-title">{{ offer.title }}</h3>
-    </div>
+      <div v-if="offer.isOffer" class="isOffer">عرض</div>
+      <div class="offer-image-container">
+          <div class="offer-image-background"></div>
+          <img class="offer-image" :src="offer.image" :alt="offer.title" />
+          <h3 class="offer-title">{{ offer.title }}</h3>
+      </div>
     
-    <div class="offer-details">
-     
-      <div class="offer-meta">
-        <div class="views">
-          <img class="icon-views" src="/images/icons/view.png" alt="">
-          <span class="view-product">مشاهدة المنتجات</span>
-        </div>
-        <hr class="vertical-line">
-        <div class="views">
-          <img class="icon-views" src="/images/icons/pin.png" alt="">
-          <span class="view-product"> مكان المتجر</span>
+      <div class="offer-details">
+        <div class="offer-meta">
+          <div class="views">
+            <img class="icon-views" src="/images/icons/view.png" alt="">
+            <span class="view-product">مشاهدة المنتجات</span>
+          </div>
+          <hr class="vertical-line">
+          <div class="views">
+            <img class="icon-views" src="/images/icons/pin.png" alt="">
+            <span class="view-product"> مكان المتجر</span>
+          </div>
         </div>
       </div>
-    </div>
   </div>
   </div>
 </template>
 
 <script setup>
-defineOptions({
-  name: 'OffersCard'
-})
-
 const offers = [
   {
     id: 1,

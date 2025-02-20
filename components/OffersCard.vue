@@ -118,10 +118,6 @@ const offers = [
   position: relative;
 }
 
-/* .offer-card:hover {
-  transform: translateY(-5px);
-} */
-
 .isOffer {
   position: absolute;
   top: 18px;

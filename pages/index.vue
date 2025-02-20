@@ -34,18 +34,18 @@
                 </div>
                 <span>خريطة المول</span>
               </div>
-              <div class="feature-item">
+              <NuxtLink to="/events" class="feature-item">
                 <div class="feature-icon">
                   <img src="@/assets/images/icons/calendar.png" alt="الفاعليات" />
                 </div>
                 <span>الفاعليات</span>
-              </div>
-              <div class="feature-item">
+              </NuxtLink>
+              <NuxtLink to="/rentals" class="feature-item">
                 <div class="feature-icon">
                   <img src="@/assets/images/icons/lock.png" alt="الايجارات" />
                 </div>
                 <span>الايجارات</span>
-              </div>
+              </NuxtLink>
             </div>
           </div>
         </div>
