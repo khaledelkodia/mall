@@ -14,10 +14,10 @@
           <div class="currency">جنية</div>  
         </div>
         <hr class="vertical-line">
-        <div class="views">
+        <NuxtLink class="views" to="/product">
           <img class="icon-views" src="/images/icons/view.png" alt="">
           <span class="view-product">مشاهدة المنتج</span>
-        </div>
+        </NuxtLink>
       </div>
     </div>
   </div>
@@ -200,6 +200,7 @@ const offers = [
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
 }
 
 .icon-views {
