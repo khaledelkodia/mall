@@ -89,13 +89,10 @@ main {
 
 .store-container {
     position: relative;
-    /* ضروري عشان الـ .store-image تقدر تاخد position absolute بناءً عليه */
     display: inline-block;
-    /* عشان العنصر يكون بمقاس المحتوى فقط */
-    width: 33%;
+    width: 450px;
     height: 100px;
     margin-top: 6rem;
-
 }
 
 .store-name {
@@ -135,13 +132,6 @@ main {
 
 .store-image img {
     width: 70%;
-}
-
-.slider-section {
-    margin-top: -6rem;
-    margin-bottom: 2rem;
-    width: 100%;
-
 }
 
 .title {
@@ -208,7 +198,7 @@ main {
 }
 
 .job-image img {
-    width: 150px;
+    width: 90%;
 }
 
 .job-content {
@@ -258,5 +248,141 @@ main {
     padding: .5rem 1rem;
     width: 100%;
     margin: 2rem auto 1rem auto;
+}
+
+@media (max-width: 1200px) {
+    .jobs-container {
+        width: 70%;
+        gap: .5rem;
+    }
+
+    .job-image {
+        width: 25%;
+    }
+
+    .job-image img {
+        width: 80%;
+    }
+
+    .job-content {
+        width: 75%;
+        gap: .2rem;
+        padding: 0 1.5rem;
+
+    }
+}
+
+
+@media (max-width: 900px) {
+    .jobs-container {
+        width: 90%;
+        gap: .5rem;
+    }
+
+    .job-image {
+        width: 25%;
+    }
+
+    .job-image img {
+        width: 80%;
+    }
+
+    .job-content {
+        width: 75%;
+        gap: .2rem;
+        padding: 0 1rem;
+
+    }
+
+    .job-content h1 {
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+
+    .job-content h3 {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .store-container {
+    width: 280px;
+    height: 60px;
+}
+
+.store-name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+
+}
+
+.store-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-left: 3rem;
+}
+
+.store-image {
+    width: 90px;
+    height: 90px;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+}
+
+.store-image img {
+    width: 70%;
+}
+
+
+    .title {
+        font-size: 1.3rem;
+    }
+
+    .contact_info {
+        font-size: .8rem;
+        gap: .7rem;
+
+    }
+
+    .jobs-container {
+        width: 100%;
+    }
+
+    .job-image {
+        width: 30%;
+    }
+
+    .job-image img {
+        width: 80%;
+    }
+
+    .job-content h1 {
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+
+    .job-content h3 {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+
+
+}
+
+@media (max-width: 480px) {
+    .store-container {
+        width: 280px;
+    }
+    .store-title {
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-left: 3rem;
+}
 }
 </style>
