@@ -10,10 +10,10 @@
     
       <div class="offer-details">
         <div class="offer-meta">
-          <div class="views">
+          <NuxtLink to="/store" class="views">
             <img class="icon-views" src="/images/icons/view.png" alt="">
             <span class="view-product">مشاهدة المنتجات</span>
-          </div>
+          </NuxtLink>
           <hr class="vertical-line">
           <div class="views">
             <img class="icon-views" src="/images/icons/pin.png" alt="">
@@ -199,6 +199,7 @@ const offers = [
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
 }
 
 .icon-views {
